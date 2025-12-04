@@ -12,8 +12,9 @@ public class Poculan8
         int [] B = new int [ A.length];
         for (int i = 0; i < A.length; i++){
             B[i] = A[i];
-            
-            System
+        }
+        for(int num : B){
+           System.out.print(num + " "); 
         }
     }
 }
